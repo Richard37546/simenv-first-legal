@@ -1,0 +1,6 @@
+<launch>
+  <arg name="params" default="$(find bev_perception)/config/bev_params.yaml"/>
+  <node pkg="bev_perception" type="bev_node.py" name="bev_perception" output="screen">
+    <rosparam command="load" file="$(arg params)"/>
+  </node>
+</launch>

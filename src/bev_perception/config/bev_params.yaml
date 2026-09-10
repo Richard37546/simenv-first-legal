@@ -1,0 +1,10 @@
+input_occupancy_topic: /map
+output_occupancy_topic: /bev/occupancy_grid
+output_obstacle_cloud_topic: /bev/obstacle_cloud
+save_dir: /home/richard/.ros/results/bev_maps
+output_dir: /home/richard/.ros/results/bev_maps
+frame_id: base
+grid_semantics_version: v3_fixed
+semantic_version: v3_fixed
+occupied_threshold: 50
+save_every_n: 1
